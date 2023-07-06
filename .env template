@@ -1,0 +1,13 @@
+
+
+# Habitualmente no se cuelgan los archivos de variables de entornos a git (o al repositorio en custion), porque en estas variables hay credenciales de cada programador y cada uno usara las suyas. Lo que se suele hacer es colgar un template, donde estan los nombres de las variables pero sin valor
+
+PROPIEDAD_PRIVADA=
+VITE_HOLA=
+
+VITE_APIKEY=
+VITE_AUTHDOMAIN=
+VITE_PROJECTID=
+VITE_STORAGEBUCKET=
+VITE_MESSAGINGSENDERID=
+VITE_APPID=
