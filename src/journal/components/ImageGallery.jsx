@@ -19,7 +19,7 @@ export const ImageGallery = ({ images }) => {
         rowHeight={200}
     >
         {
-            images.map((item) => (
+            images?.map((item) => (
                 <ImageListItem key={item}>
                     <img
                         src={`${item}?w=164&h=164&fit=crop&auto=format`}
